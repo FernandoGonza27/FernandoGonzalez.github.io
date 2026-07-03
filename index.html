@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fernando Gonzalez | Full Stack Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Fernando Gonzalez builds modern web applications, APIs, QA automation workflows, and reliable delivery systems with Laravel, Next.js, TypeScript, Docker, and PostgreSQL."
+  />
+  <meta name="author" content="Fernando Gonzalez" />
+  <meta name="theme-color" content="#07111d" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307111d'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%238ce2ff'/%3E%3Cellipse cx='32' cy='32' rx='22' ry='11' fill='none' stroke='%2394f7d5' stroke-width='3'/%3E%3Ccircle cx='46' cy='28' r='3.5' fill='%23eff7ff'/%3E%3C/svg%3E"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skipLink">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#main-content" aria-label="Fernando Gonzalez home">
+        <span class="brand-orbit" aria-hidden="true">
+          <span class="brand-core"></span>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Fernando Gonzalez</span>
+          <span class="brand-role" data-i18n="brandRole">Full Stack · QA Automation</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
+        <a href="#cases" data-i18n="nav.cases">Cases</a>
+        <a href="#stack" data-i18n="nav.stack">Stack</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch lang-switch--desktop" role="group" aria-label="Language selector">
+          <button type="button" class="lang-switch__button" data-lang-control="en" aria-pressed="true">
+            EN
+          </button>
+          <button type="button" class="lang-switch__button" data-lang-control="es" aria-pressed="false">
+            ES
+          </button>
+        </div>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="menu-toggle__icon" aria-hidden="true">
+            <span class="menu-toggle__line menu-toggle__line--top"></span>
+            <span class="menu-toggle__line menu-toggle__line--middle"></span>
+            <span class="menu-toggle__line menu-toggle__line--bottom"></span>
+          </span>
+          <span class="menu-toggle__label">Menu</span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav class="mobile-nav" aria-label="Mobile primary">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
+          <a href="#cases" data-i18n="nav.cases">Cases</a>
+          <a href="#stack" data-i18n="nav.stack">Stack</a>
+          <a href="#process" data-i18n="nav.process">Process</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="mobile-menu__footer">
+          <div class="lang-switch lang-switch--mobile" role="group" aria-label="Language selector">
+            <button type="button" class="lang-switch__button" data-lang-control="en" aria-pressed="true">
+              EN
+            </button>
+            <button type="button" class="lang-switch__button" data-lang-control="es" aria-pressed="false">
+              ES
+            </button>
+          </div>
+
+          <a
+            class="button button--primary mobile-menu__cta"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=fernandogonzar0@gmail.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            data-email-link
+            data-i18n="nav.contactMini"
+          >
+            Let&apos;s talk
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1 class="hero-title">
+            <span data-i18n="hero.titleLead">Building reliable</span>
+            <span class="hero-title__accent" data-i18n="hero.titleAccent">web systems</span>
+          </h1>
+        
+
+          <div class="hero-actions">
+            <a
+              class="button button--primary"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=fernandogonzar0@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              data-email-link
+              data-i18n="hero.primaryCta"
+            >
+              Start a conversation
+            </a>
+            <a
+              class="button button--secondary"
+              href="https://github.com/FernandoGonza27"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="hero.secondaryCta"
+            >
+              View GitHub
+            </a>
+            <a
+              class="button button--ghost"
+              href="https://www.linkedin.com/in/fernando-gonz%C3%A1lez-3baa60217"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="hero.tertiaryCta"
+            >
+              LinkedIn
+            </a>
+          </div>
+
+          <ul class="hero-metrics" id="hero-metrics" aria-label="Key profile metrics"></ul>
+        </div>
+
+        <div class="hero-visual-wrap reveal">
+          <div class="hero-visual" id="hero-visual" aria-hidden="true">
+            <div class="orbit orbit--large"></div>
+            <div class="orbit orbit--medium"></div>
+            <div class="orbit orbit--small"></div>
+            <div class="hero-haze hero-haze--one"></div>
+            <div class="hero-haze hero-haze--two"></div>
+            <div class="star star--one"></div>
+            <div class="star star--two"></div>
+            <div class="star star--three"></div>
+            <div class="hero-core">
+              <span></span>
+            </div>
+
+            <article class="mission-card">
+              <p class="mission-card__eyebrow" data-i18n="hero.panelEyebrow">Mission profile</p>
+              <h2 class="mission-card__title" data-i18n="hero.panelTitle">
+                Systems planned for maintainability, tested for confidence.
+              </h2>
+              <p class="mission-card__body" data-i18n="hero.panelDescription">
+                Full stack execution with an emphasis on backend reliability, structured delivery and verification.
+              </p>
+              <ul class="mission-list" id="mission-list"></ul>
+            </article>
+
+            <div class="signal-card signal-card--alpha">
+              <span class="signal-card__label" data-i18n="hero.signalOneLabel">Focus</span>
+              <strong class="signal-card__value" data-i18n="hero.signalOneValue">Automation-first delivery</strong>
+            </div>
+
+            <div class="signal-card signal-card--beta">
+              <span class="signal-card__label" data-i18n="hero.signalTwoLabel">Stack</span>
+              <strong class="signal-card__value" data-i18n="hero.signalTwoValue">Laravel · Next.js · Docker</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-head reveal">
+        <p class="section-kicker" data-i18n="about.kicker">Positioning</p>
+        <h2 class="section-title" data-i18n="about.title">
+          A developer profile shaped around clean implementation, backend foundations and quality engineering.
+        </h2>
+
+      </div>
+
+      <div class="container about-grid">
+        <article class="panel reveal">
+          <p class="panel-label" data-i18n="about.storyLabel">Professional summary</p>
+          <h3 class="panel-title" data-i18n="about.storyTitle">Practical engineering for real projects</h3>
+          <p class="panel-copy" data-i18n="about.storyBody">
+            I work across application code, APIs, data models, environments, and automated tests to keep delivery
+            reliable from development through release.
+          </p>
+        </article>
+
+        <article class="panel reveal">
+          <p class="panel-label" data-i18n="about.focusLabel">Current focus</p>
+          <h3 class="panel-title" data-i18n="about.focusTitle">Where the work is going deeper</h3>
+          <ul class="bullet-list" id="focus-list"></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="capabilities" class="section">
+      <div class="container section-head reveal">
+        <p class="section-kicker" data-i18n="capabilities.kicker">Capabilities</p>
+        <h2 class="section-title" data-i18n="capabilities.title">
+          Core strengths across product delivery, backend systems and QA automation.
+        </h2>
+        <p class="section-description" data-i18n="capabilities.description">
+          The focus is not only on shipping code, but on building workflows and system structures that stay usable as
+          products grow.
+        </p>
+      </div>
+
+      <div class="container capability-grid" id="capabilities-grid"></div>
+    </section>
+
+    <section id="cases" class="section">
+      <div class="container section-head reveal">
+        <p class="section-kicker" data-i18n="cases.kicker">Featured cases</p>
+        <h2 class="section-title" data-i18n="cases.title">
+          Curated examples of the type of engineering problems I like solving.
+        </h2>
+        <p class="section-description" data-i18n="cases.description">
+          These cases are framed around outcomes and implementation patterns, with placeholders where project details
+          are private or not yet documented publicly.
+        </p>
+      </div>
+
+      <div class="container case-grid" id="cases-grid"></div>
+    </section>
+
+    <section id="stack" class="section tech-stack-section">
+      <div class="container tech-stack-container">
+        <header class="section-head tech-stack-header reveal">
+          <p class="section-kicker" data-i18n="stack.kicker">Technologies</p>
+        </header>
+
+        <div class="tech-stack-grid" id="stack-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container section-head reveal">
+        <p class="section-kicker" data-i18n="process.kicker">Process</p>
+        <h2 class="section-title" data-i18n="process.title">
+          An engineering workflow designed for clarity, repeatability and fewer surprises.
+        </h2>
+      </div>
+
+      <div class="container process-grid" id="process-grid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-copy">
+            <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+            <h2 class="section-title" data-i18n="contact.title">
+              Let&apos;s build software that is useful, maintainable and ready to ship.
+            </h2>
+          </div>
+
+          <div class="contact-actions">
+            <a
+              class="button button--primary"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=fernandogonzar0@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              data-email-link
+              data-i18n="contact.emailCta"
+            >
+              Email me
+            </a>
+            <a
+              class="button button--secondary"
+              href="https://www.linkedin.com/in/fernando-gonz%C3%A1lez-3baa60217"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact.linkedinCta"
+            >
+              Open LinkedIn
+            </a>
+            <a
+              class="button button--ghost"
+              href="https://github.com/FernandoGonza27"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact.githubCta"
+            >
+              Browse GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-signature">
+        <span id="year"></span>
+        <span data-i18n="footer.signature">Fernando Gonzalez</span>
+      </p>
+    </div>
+  </footer>
+
+  <p id="lang-status" class="sr-only" aria-live="polite"></p>
+
+  <noscript>
+    <div class="noscript-banner">
+      This portfolio uses a small amount of JavaScript for bilingual copy and motion. The page still works, but the
+      language toggle and dynamic sections need JavaScript enabled.
+    </div>
+  </noscript>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
